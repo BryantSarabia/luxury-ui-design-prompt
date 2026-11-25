@@ -12,9 +12,8 @@ A single, self-contained LLM prompt that generates **one HTML file**. The file h
 
 ## Usage
 
-1. Open [`PROMPT.md`](PROMPT.md).
-2. Replace `{{BRIEF}}` with what you want designed.
-3. Paste the prompt into your model. It returns a single HTML document.
+1. Paste [`PROMPT.md`](PROMPT.md) into your model as the first message. It replies `Ready. Send the design instruction.`
+2. Send what you want designed as the next message. The model returns a single HTML document.
 
 ## Disclaimer
 
